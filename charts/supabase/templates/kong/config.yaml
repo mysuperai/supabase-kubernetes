@@ -32,10 +32,10 @@ data:
     {{- end }}
       - username: anon
         keyauth_credentials:
-          - key: ${SUPABASE_ANON_KEY}
+            - key: ${SUPABASE_ANON_KEY}
       - username: service_role
         keyauth_credentials:
-          - key: ${SUPABASE_SERVICE_KEY}
+            - key: ${SUPABASE_SERVICE_KEY}
     acls:
       - consumer: anon
         group: anon
